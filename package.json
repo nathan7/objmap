@@ -1,0 +1,23 @@
+{
+  "name": "objmap",
+  "version": "1.0.0",
+  "description": "map over objects",
+  "main": "index.js",
+  "dependencies": {
+    "object": "~0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathan7/objmap.git"
+  },
+  "keywords": [
+    "object",
+    "utility"
+  ],
+  "author": "Nathan Zadoks",
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/nathan7/objmap/issues"
+  }
+}

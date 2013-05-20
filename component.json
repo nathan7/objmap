@@ -1,0 +1,17 @@
+{
+  "name": "objmap",
+  "repo": "nathan7/objmap",
+  "description": "map over objects",
+  "version": "1.0.0",
+  "keywords": [
+    "object",
+    "utility"
+  ],
+  "dependencies": {
+    "component/object": "*"
+  },
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
