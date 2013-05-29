@@ -21,6 +21,10 @@
 
   Creates a new object with the given keys and the values returned from the callback.
 
+### objmap.toArray(obj, function(value, key, obj), thisObj)
+
+  Creates a new array with the values returned from the callback.
+
 ## License
 
   MIT

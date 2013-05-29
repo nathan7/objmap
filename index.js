@@ -13,3 +13,10 @@ function objmapKeys(keys, fn, newObj, thisObj) {
     newObj[keys[i]] = fn.call(thisObj, keys[i])
   return newObj
 }
+objmap.toArray =
+function objmapToArray(obj, fn, thisObj) {
+  var arr = []
+  for (var keys = object.keys(obj), i = 0, len = keys.length; i < len; i++)
+    arr.push(fn.call(thisObj, obj[keys[i]], keys[i], obj))
+  return arr
+}
