@@ -1,6 +1,6 @@
 {
   "name": "objmap",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "map over objects",
   "main": "index.js",
   "dependencies": {
