@@ -15,8 +15,11 @@ function objmapKeys(keys, fn, newObj, thisObj) {
 }
 objmap.toArray =
 function objmapToArray(obj, fn, thisObj) {
+  if (!fn) fn = id
   var arr = []
   for (var keys = object.keys(obj), i = 0, len = keys.length; i < len; i++)
     arr.push(fn.call(thisObj, obj[keys[i]], keys[i], obj))
   return arr
 }
+
+function id(x) { return x }
